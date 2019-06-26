@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menuproject.MainActivity">
+
+    <item
+        android:id="@+id/help_item"
+        android:title="Help"/>
+    <item
+        android:id="@+id/setting_item"
+        android:title="Setting"/>
+
+</menu>
