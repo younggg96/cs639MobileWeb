@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Yummy Cooking</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_description">Welcome to Yummy Cooking Kitchen!</string>
+    <string name="item1">Coconunt Curry</string>
+    <string name="item2">Garlic Butter Brazilian Steak</string>
+    <string name="itemDes1">Time: 15minutes \t Estimated Cost: $11.15\nServing 2 \t Calories:506</string>
+    <string name="itemDes2">Time: 30minutes \t Estimated Cost: $10.72\nServing 2 \t Calories:330</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="ingredientsContent">
+        \n - 1 can coconut milk\n - 2 tablespoons red curry paste\n - 2 small heads broccoli (and/or other veggies of choice)\n - 1 can chickpeas, rinsed and drained\n - 1/2 tablespoon cornstarch dissolved in 2 tablespoons cold water\noptional: minced garlic or onion\n</string>
+    <string name="ingredientsContent2">\n - 1 lb skirt steak\n -	salt and pepper for taste\n -	6 tsp minced garlic Add half if you like a less garlic flavor\n -	1/4 cup chopped parsley plus 1/8 cup\n -	5 tbsp unsalted butter\n -	salt to taste for the butter\n</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructionsContent">Saute broccoli (and onion/garlic if you’re using it) in a tablespoon of oil. After a few minutes, add the coconut milk and let simmer for 5-8 minutes. The broccoli should soften but still be tender-crisp.\n
+Add the curry paste to the pan and whisk it until it combines with the coconut milk. Add the chickpeas.\n
+Bring to a slight boil and add the cornstarch. Boil for about a minute, then reduce heat and let cool slightly. Sauce will thicken as the mixture cools.\n
+    </string>
+    <string name="instructionsContent2">Cut the steak into 3 or 4 parts. Pat the steaks dry then season both sides liberally with salt and pepper\n
+In a heavy duty skillet large enough for the skirt steak, heat oil over medium-high heat until it’s very hot. Add the steak and sear both sides (brown both sides) for 2-3 minutes until medium rare or cook longer until your desired doneness. I cooked mine for about 4 minutes on each side. Place steaks to rest on a plate and cover with foil.\n
+In a skillet melt the butter over low heat then add the garlic. Cook swirling or using a spatula to move the butter and garlic around until lightly golden. Don’t over cook, or the butter and garlic will burn.\n
+Pour the garlic butter into a bowl and salt to taste. Slice the steak against the grain. Garnish with parsley and then spoon or pour the garlic butter over the steak. Serve immediately.\n
+</string>
+</resources>
