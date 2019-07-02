@@ -14,6 +14,8 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
+import androidx.fragment.app.Fragment;
+
 /**
  * Fragment representing the login screen for Shrine.
  */
@@ -63,4 +65,7 @@ public class LoginFragment extends Fragment {
     private boolean isPasswordValid(@Nullable Editable text) {
         return text != null && text.length() >= 8;
     }
+        // Snippet from "Navigate to the next Fragment" section goes here.
+
+    // "isPasswordValid" from "Navigate to the next Fragment" section method goes here
 }
