@@ -111,69 +111,11 @@ public class MainActivity extends AppCompatActivity implements
         // Filter Dialog
         mFilterDialog = new FilterDialogFragment();
 
-        mFirestore.collection("restaurants").document("abc123").collection("ratings");
+        mFirestore.collection("restaurants").
+                document("abc123").
+                collection("ratings");
 
-//        FirebaseFirestore db = FirebaseFirestore.getInstance();
-
-//        // Create a new user with a first and last name
-//        Map<String, Object> user1 = new HashMap<>();
-//        user1.put("first", "Ada");
-//        user1.put("last", "Lovelace");
-//        user1.put("born", 1815);
-//
-//        // Add a new document with a generated ID
-//        db.collection("users")
-//                .add(user1)
-//                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-//                    @Override
-//                    public void onSuccess(DocumentReference documentReference) {
-//                        Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
-//                    }
-//                })
-//                .addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception e) {
-//                        Log.w(TAG, "Error adding document", e);
-//                    }
-//                });
-//
-//        // Create a new user with a first, middle, and last name
-//        Map<String, Object> user2 = new HashMap<>();
-//        user2.put("first", "Alan");
-//        user2.put("middle", "Mathison");
-//        user2.put("last", "Turing");
-//        user2.put("born", 1912);
-//
-//// Add a new document with a generated ID
-//        db.collection("users")
-//                .add(user2)
-//                .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
-//                    @Override
-//                    public void onSuccess(DocumentReference documentReference) {
-//                        Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
-//                    }
-//                })
-//                .addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception e) {
-//                        Log.w(TAG, "Error adding document", e);
-//                    }
-//                });
-//
-//        db.collection("users")
-//                .get()
-//                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
-//                    @Override
-//                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
-//                        if (task.isSuccessful()) {
-//                            for (QueryDocumentSnapshot document : task.getResult()) {
-//                                Log.d(TAG, document.getId() + " => " + document.getData());
-//                            }
-//                        } else {
-//                            Log.w(TAG, "Error getting documents.", task.getException());
-//                        }
-//                    }
-//                });
+          
 
     }
 
