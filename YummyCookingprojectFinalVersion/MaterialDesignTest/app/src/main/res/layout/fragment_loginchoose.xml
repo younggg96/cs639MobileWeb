@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/as_guest_button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="@string/button_asguest"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_now_button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_Login"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+</LinearLayout>
